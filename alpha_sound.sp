@@ -10,9 +10,9 @@ Handle g_hAlphaSound;
 
 public Plugin myinfo =
 {
-        name = "Startup Sounds Plugin",
+        name = "Alpha Sounds Plugin",
         author = "Alpha",
-        description = "Plays random sound when player joins",
+        description = "Enables playing sounds in Dystopia",
         version = "0.2",
         url = "sussyvr.com"
 }
