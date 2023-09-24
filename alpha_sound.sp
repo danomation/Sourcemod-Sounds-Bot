@@ -11,7 +11,7 @@ Handle g_hAlphaSound;
 public Plugin myinfo =
 {
         name = "Alpha Sounds Plugin",
-        author = "Alpha",
+        author = "danomation",
         description = "Enables playing sounds in Dystopia",
         version = "0.2",
         url = "sussyvr.com"
