@@ -17,7 +17,6 @@ public Plugin myinfo =
         url = "sussyvr.com"
 }
 
-//registering the !potato command to the potato function below
 public void OnPluginStart()
 {
         g_hAlphaSound = RegClientCookie("alpha_sound_alphasound", "Alpha_Sound AlphaSound", CookieAccess_Protected);
@@ -160,9 +159,6 @@ public void OnClientPutInServer( int client )
         }
 }
 
-
-
-//logic to play sound on !quack
 public Action quack(int client, int argc)
 {
         int client = MaxClients;
@@ -189,7 +185,6 @@ public Action quack(int client, int argc)
         return Plugin_Handled;
 }
 
-//logic to play sound on !mission
 public Action mission(int client, int argc)
 {
         int client = MaxClients;
@@ -213,7 +208,6 @@ public Action mission(int client, int argc)
         return Plugin_Handled;
 }
 
-//logic to play sound on !headshot
 public Action headshot(int client, int argc)
 {
         int client = MaxClients;
@@ -261,8 +255,6 @@ public Action prepare(int client, int argc)
         return Plugin_Handled;
 }
 
-
-//logic to play sound on !triple
 public Action triple(int client, int argc)
 {
         int client = MaxClients;
