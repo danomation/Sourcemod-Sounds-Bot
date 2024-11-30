@@ -14,7 +14,7 @@ public Plugin myinfo =
         author = "danomation",
         description = "Enables playing sounds in Dystopia",
         version = "0.2",
-        url = "sussyvr.com"
+        url = "switchmeme.com"
 }
 
 public void OnPluginStart()
